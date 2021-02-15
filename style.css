@@ -1,0 +1,91 @@
+body {
+    background-color: gray;
+  }
+  #sec {
+   background-color: white;
+   width: 102%;
+    margin-left: -20px;
+    height: 50px;
+    margin-top: -7px;
+  }
+  h2{
+    text-align: center;
+    margin-top: -40px;
+    font-family: 'Roboto', sans-serif;  
+  }
+  .text {
+    color: white;
+    font-size: 25px;
+   margin-left: 600px;
+    display: inline;
+    column-gap: 20px;
+    border: 2px solid white;
+    padding-bottom: 20px;
+  } 
+  
+  .text:before {
+    content: "user";
+    background-color: tomato;
+    padding: 0px 7px;
+    margin-left: -15px;
+    font-size: 15px;
+  }
+  .text:after {
+     content: "comp";
+    background-color: tomato;
+    padding: 0px 7px;
+    font-size: 15px;
+    margin-left: 0px;
+  }
+  .head h2 {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 25px;
+  }
+  .box img {
+    width: 50px;
+    border: 2px solid gold;
+    border-radius: 40px;
+    padding: 15px;
+}
+.box img:hover {
+  background-color: white;
+}
+  .box .center1{
+      margin-left: 37%;
+      margin-right: auto;
+      display: block;
+  }
+  .box .center2{
+    margin-left: 47%;
+    margin-top: -82px;
+    margin-right: auto;
+    display: block;
+  }
+  .box .center3{
+    margin-left: 57%;
+    margin-top: -85px;
+    margin-right: auto;
+    display: block;
+  }
+  .box img {
+      width: 50px;
+      border: 2px solid gold;
+      border-radius: 40px;
+      padding: 15px;
+  }
+  .box img:hover {
+    background-color: white;
+  }
+
+  .end h3 {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Coda Caption', sans-serif;
+  }
